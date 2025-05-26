@@ -1,0 +1,47 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Caches
+*.cache
+*.pytest_cache/
+
+# Environment variables file (donde pueden estar las credenciales DB)
+.env
+.env.*
+
+# Virtual environment directories
+venv/
+env/
+ENV/
+
+# Logs
+*.log
+
+# IDEs and editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Dependency directories
+pip-wheel-metadata/
+*.egg-info/
+
+# Distribution / packaging
+build/
+dist/
+.eggs/
+
+# Migrations (si usas Alembic u otro)
+migrations/
+
+# Pytest cache
+.pytest_cache/
+
+# MyPy
+.mypy_cache/
+
+# Otros archivos temporales
+*.tmp
